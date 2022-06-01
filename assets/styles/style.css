@@ -1,0 +1,215 @@
+
+.cabecario_inteiro{
+    margin-top: -2.2%;
+}
+
+.logo{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+   text-align: left;
+   color: #ffffff;
+   font-size:larger;
+   
+
+   
+   
+}
+
+
+.titulo_nome{
+
+    text-align: left;
+    margin-left: 25%;
+    margin-top: -5%;    
+    text-decoration: underline;
+}
+
+.info {
+    color:#ffffff;
+    background-color: #1ba4ff;  
+    width: 1320px; 
+    height: 515px;
+    background-image: linear-gradient(to left, #1ba4ff, #032d52);
+    text-align: center;
+    margin-left: -0.82%;
+    position: absolute;
+    margin-top: 6%;
+    border-radius: 10px 10px 0px 0px;
+    width: 69.9%;
+    font-size: small;
+    
+    
+    
+}
+
+.info_info{
+    top: 100%;
+}
+    
+ul>li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+
+}
+
+.box {
+    position: absolute;
+    top: 330%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsla(0, 2%, 82%, 0.8);
+    width: 69.97%;
+    font-family: Segoe UI, Segoe WP, Tahoma, Arial, sans-serif;
+    font-size: 17px;
+
+
+
+
+}
+
+body {
+    margin: -30;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.cabeçario {
+    border: 1px solid rgb(1, 20, 39);
+    border-radius: 1%;
+    padding: 0px;
+    text-align: center;
+    background-color: dodgerblue;
+    background-image: linear-gradient(to right, #1ba4ff, #032d52);
+    position: relative;
+}
+
+
+#data {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #1ba4ff, #032d52);
+    border-radius: 10px 20px 30px 40px;
+    ;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 99%;
+    left: 36.9%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #1e90ff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao,
+select {
+    cursor: pointer;
+}
+
+.campo input[type="text"],
+.campo select {
+    padding: 0em;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+
+#check {
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+    margin-left: 15%;
+ 
+}
+
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #ffffff;
+    border-radius: 2%;
+
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select {
+    padding: 0.5em;
+    border: 0.5px solid #0c023a;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    width: 70%;
+    border-radius: 5%;
+}
+
+.texto_area {
+    padding: 0.2em;
+    display: block;
+    margin-left: 16%;
+
+
+}
+
+#justificativas {
+    border-radius: 5%;
+    padding: 0.3em;
+    display: block;
+    border: 1px solid #07021f;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#comentários,
+#outros_digitar {
+    border-radius: 5%;
+    padding: 0.3em;
+    display: block;
+    border: 1px solid #07021f;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+input[type=radio] {
+    position: relative;
+    border: 1px;
+    width: 2.7%;
+    height: 1.5em;
+    border: 1px solid #07021f;
+    margin-left: 6.9%;
+
+}
+
+legend {
+    position: relative;
+    margin-left: auto;
+    margin-right: 10%;
+
+
+
+}

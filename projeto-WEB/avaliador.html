@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1ab94d0eba.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="assets\styles\style_form.css" />
+  </head>
+
+
+  <div class="header">
+    
+    <a href="#default" ><img src="./assets/img/img_logo.jfif" alt="logo" /></a>
+    <div class="header-right">
+      <a class="active" href="#home">Inicio</a>
+      <a href="#contact">Contato</a>
+      <a href="#about">Sobre</a>
+      <a href="#help">Ajuda</a>
+    </div>
+  </div>
+
+  <body>
+    <main class="container">
+      <h2>Avaliador</h2>
+
+<!-- Input Nome Avaliado -->
+      <div class="input-field">
+        <input
+          type="text"
+          name="avaliado"
+          id="idAvaliado"
+          placeholder="Nome avaliador"
+        />
+        <div class="underline"></div>
+      </div>
+
+      <!-- Input Select Box -->
+      <div class="cargo-select" style="width:200px;" >
+        <select>
+
+          <option selected disabled value="">Selecione</option>
+          <option value="1">Auditoria</option>
+          <option value="2">Gerencia</option>
+          <option value="3">Outsourcing</option>
+        </select>
+      </div>
+
+
+      <div>
+        <input type="submit" value="Criar avaliador" />
+      </div>
+    </main>
+  </body>
+</html>

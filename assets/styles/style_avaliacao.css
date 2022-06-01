@@ -1,0 +1,31 @@
+.banner{
+    background-image: linear-gradient(rgba(27, 35, 61, 0.75),rgba(27, 35, 61, 0.75)), url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+label, legend{
+    color: #fff;
+    font-style: arial;
+    font-size: large;
+    
+}
+.navbar{
+background-image: linear-gradient(to left, #1ba4ff, #032d52);
+
+
+
+}
+
+img{
+    border-radius: 10%;
+}
+
+.nav-item{
+    font-size: large;
+}
+
+
+

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+ 
+
+
+
+    <!-- Titulo -->
+    <title>Formulário</title>
+</head>
+
+<!-- corpo do projeto -->
+
+
+<body>
+
+
+<fieldset class="cabecario_inteiro">
+   
+
+        <div class="info">
+            <nav class="logo">
+                <div class="logo">
+                    <img src="assets\img\img_logo.jfif" alt="" width="60" height="50" class="logo"><strong><h1>Moore Prisma</h1></strong>
+                   
+            <div class="titulo_nome"><br><br><br>
+
+                <label for="titulo_nome"><strong><h1>Avaliação Profissional por Job</strong></h1></label>
+
+            </div>
+            <br><br><br><br>
+            <div class="info_info">
+            <label for="info">✔ Pontuar de 1 a 5 de acordo com o desempenho apresentado:
+                </label>
+            <ul>
+                <li>1-Muito abaixo do esperado</li>
+                <li>2-Abaixo do esperado </li>
+                <li>3-Dentro do esperado</li>
+                <li>4-Acima do esperado</li>
+                <li>5-Muito acima do esperado</li>
+            </ul>
+            <label>✔ Todas notas 1 e 2 devem ser justificadas no item 22.</label>
+        </div>
+        </div>
+    </nav>
+    </div>
+</fieldset>
+
+
+
+
+    <div class="box">
+        
+
+        <form action="" class="Form-group">
+           
+            
+        <br>
+        <br>
+            
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <br>
+                        <label for="avaliador">1. Avaliador :</label>
+                        <input type="text" list="avaliador" placeholder="Selecione"><br>
+                        <datalist id="avaliador" required>
+                            <option>Gustavo Agostinho Papa Monteiro</option>
+                            <option>Kleber viana</option>
+                            <option>Bruno Pascoal</option>
+                        </datalist>
+                    </div>
+                   
+                    <br>
+                    <div class="campo">
+                        <label for="avaliado">2. Avaliado :</label>
+                        <input type="text" list="avaliado" placeholder="Selecione"><br>
+                        <datalist id="avaliado" required>
+                            <option>Natasha</option>
+                            <option>leonardo</option>
+                            <option>ana</option>
+                            <option>carla</option>
+                        </datalist>
+                    </div>
+                    <br>
+
+                    <div class="campo">
+                        <label for="agenda">3. Agenda :</label>
+                        <input type="text" list="agenda" placeholder="Selecione"><br>
+                        <datalist id="agenda" required>
+                            <option>germanica 25/01 - Gustavo Agostinho	</option>
+                            <option>Copema 02/07 - Kleber Viana</option>
+                            <option>Jaú server 07/10 - Bruno Pascoal</option>
+                            <option>Unimed Ribeirão 27/04 - Ana maria</option>
+                        </datalist>
+
+                    <br>
+
+                    <div class="campo">
+                        <label for="cliente">4. Cliente :</label>
+                        <input type="text" list="cliente" placeholder="Selecione"><br>
+                        <datalist id="cliente" required>
+                            <option>Copercana</option>
+                            <option>Unimed ribeirão preto</option>
+                            <option>Unimed Bauru</option>
+                            <option>Grupo germânica</option>
+                            <option>Copema</option>
+                        </datalist>
+                    </div>
+                    <br>
+
+                        
+                </fieldset>
+
+                <fieldset>
+                    <div class="tipos">
+
+                        <legend>5. Tipo da Avaliação :</legend>
+                        <br>
+                        <input type="radio" id="tipo1" name="tipo1" value="Assistente/Trainee" required>
+                        <label for="tipos">Assistente/Trainee</label>
+                    
+                   
+                        <input type="radio" id="tipo2" name="tipo2" value="Encarregado" required>
+                        <label for="tipos">Encarregado</label>
+                    </div>
+                </fieldset>
+                <br>
+
+
+
+                <fieldset>
+                    <div class="campo">
+                        <label for="data"> 6. Data do término da visita: </label><br>
+                        <br>
+                        <input type="date" nome="data" id="data" placeholder=" Insira da data" required>
+                    </div>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <div class="campo">
+                        <label for="tipo">7. Tipo do compromisso :</label><br>
+                        <br>
+                        <input type="text" list="tipo" placeholder="Selecione">
+                        <datalist id="tipo" required>
+                            <br>
+                            <option>Auditoria das DFs / Revisão limitada (Preliminar)</option>
+                            <option>Auditoria das DFs (Controle interno)</option>
+                            <option>Auditoria das DFs / Revisão limitada (Final)</option>
+                            <option>Revisão contábil (Preliminar)</option>
+                            <option>Revisão contábil (Final)</option>
+                            <option>Auditoria cooperativa</option>
+                            <option>Inventário</option>
+                            <option>Auditoria interna</option>
+                        
+                        </datalist>
+                    
+                    </div>
+                    <br>
+                            <div class="outros">
+                              
+                            <input type="text" id="outros_digitar" name="outros_digitar" value="" placeholder="Outros">
+                            <label for="outros" ></label>
+                        
+                        
+                            
+                        </div>
+                    </fieldset>
+
+                        
+                 
+              
+                <br>
+
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>8. Apresentar conhecimento técnico de Auditoria compatível com a descrição do
+                                cargo:</legend><br>
+                        <input type="radio" id="5op1" name="op5" value="1" required>
+                        <label for="5op1">1</label>
+
+                        <input type="radio" id="5op2" name="op5" value="2" required>
+                        <label for="5op2">2</label>
+
+                        <input type="radio" id="5op3" name="op5" value="3" required>
+                        <label for="5op3">3</label>
+
+                        <input type="radio" id="5op4" name="op5" value="4" required>
+                        <label for="5op4">4</label>
+
+                        <input type="radio" id="5op5" name="op5" value="5" required>
+                        <label for="5op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>9. Apresentar conhecimento técnico de Contabilidade compatível com a descrição do cargo:</legend><br>
+                        <input type="radio" id="6op1" name="op6" value="1" required>
+                        <label for="6op1">1</label>
+
+                        <input type="radio" id="6op2" name="op6" value="2" required>
+                        <label for="6op2">2</label>
+
+                        <input type="radio" id="6op3" name="op6" value="3" required>
+                        <label for="6op3">3</label>
+
+                        <input type="radio" id="6op4" name="op6" value="4" required>
+                        <label for="6op4">4</label>
+
+                        <input type="radio" id="6op5" name="op6" value="5" required>
+                        <label for="6op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>10. Capacidade de entendimento e interpretação das explicações
+                                (clientes/superiores):</legend><br>
+                        <input type="radio" id="7op1" name="op7" value="1" required>
+                        <label for="7op1">1</label>
+
+                        <input type="radio" id="7op2" name="op7" value="2" required>
+                        <label for="7op2">2</label>
+
+                        <input type="radio" id="7op3" name="op7" value="3" required>
+                        <label for="7op3">3</label>
+
+                        <input type="radio" id="7op4" name="op7" value="4" required>
+                        <label for="7op4">4</label>
+
+                        <input type="radio" id="7op5" name="op7" value="5" required>
+                        <label for="7op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>11.Cumprir o trabalho no tempo estabelecido:</legend><br>
+                        <input type="radio" id="8op1" name="op8" value="1" required>
+                        <label for="8op1">1</label>
+
+                        <input type="radio" id="8op2" name="op8" value="2" required>
+                        <label for="8op2">2</label>
+
+                        <input type="radio" id="8op3" name="op8" value="3" required>
+                        <label for="8op3">3</label>
+
+                        <input type="radio" id="8op4" name="op8" value="4" required>
+                        <label for="8op4">4</label>
+
+                        <input type="radio" id="8op5" name="op8" value="5" required>
+                        <label for="8op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>12.Disponibilizar o trabalho com qualidade (metodologia, técnica, organização e
+                                apresentação):</legend><br>
+                        <input type="radio" id="9op1" name="op9" value="1" required>
+                        <label for="9op1">1</label>
+
+                        <input type="radio" id="9op2" name="op9" value="2" required>
+                        <label for="9op2">2</label>
+
+                        <input type="radio" id="9op3" name="op9" value="3" required>
+                        <label for="9op3">3</label>
+
+                        <input type="radio" id="9op4" name="op9" value="4" required>
+                        <label for="9op4">4</label>
+
+                        <input type="radio" id="9op5" name="op9" value="5" required>
+                        <label for="9op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>13.Buscar melhoria com base nas revisões e feedback anteriores:
+                        </legend><br>
+                        <input type="radio" id="10op1" name="op10" value="1" required>
+                        <label for="10op1">1</label>
+
+                        <input type="radio" id="10op2" name="op10" value="2" required>
+                        <label for="10op2">2</label>
+
+                        <input type="radio" id="10op3" name="op10" value="3" required>
+                        <label for="10op3">3</label>
+
+                        <input type="radio" id="10op4" name="op10" value="4" required>
+                        <label for="10op4">4</label>
+
+                        <input type="radio" id="10op5" name="op10" value="5" required>
+                        <label for="10op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>14. Apresentar capacidade de comunicação oral e escrita:</legend><br>
+                        <input type="radio" id="11op1" name="op11" value="1" required>
+                        <label for="11op1">1</label>
+
+                        <input type="radio" id="11op2" name="op11" value="2" required>
+                        <label for="11op2">2</label>
+
+                        <input type="radio" id="11op3" name="op11" value="3" required>
+                        <label for="11op3">3</label>
+
+                        <input type="radio" id="11op4" name="op11" value="4" required>
+                        <label for="11op4">4</label>
+
+                        <input type="radio" id="11op5" name="op11" value="5" required>
+                        <label for="11op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>15.Possuir habilidade crítica e analítica dos fatos, se resguardando sobre
+                                eventuais
+                                problemas identificados nos exames:</legend><br>
+                        <input type="radio" id="12op1" name="op12" value="1" required>
+                        <label for="12op1">1</label>
+
+                        <input type="radio" id="12op2" name="op12" value="2" required>
+                        <label for="12op2">2</label>
+
+                        <input type="radio" id="12op3" name="op12" value="3" required>
+                        <label for="12op3">3</label>
+
+                        <input type="radio" id="12op4" name="op12" value="4" required>
+                        <label for="12op4">4</label>
+
+                        <input type="radio" id="12op5" name="op12" value="5" required>
+                        <label for="12op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>16.Eliminar todos os pontos de revisão identificados pelos superiores:
+                        </legend><br>
+                        <input type="radio" id="13op1" name="op13" value="1" required>
+                        <label for="13op1">1</label>
+
+                        <input type="radio" id="13op2" name="op13" value="2" required>
+                        <label for="13op2">2</label>
+
+                        <input type="radio" id="13op3" name="op13" value="3" required>
+                        <label for="13op3">3</label>
+
+                        <input type="radio" id="13op4" name="op13" value="4" required>
+                        <label for="13op4">4</label>
+
+                        <input type="radio" id="13op5" name="op13" value="5" required>
+                        <label for="13op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>17.Dominar as ferramentas tecnológicas utilizadas para o desenvolvimento do
+                                trabalho:</legend><br>
+                        <input type="radio" id="14op1" name="op14" value="1" required>
+                        <label for="14op1">1</label>
+
+                        <input type="radio" id="14op2" name="op14" value="2" required>
+                        <label for="14op2">2</label>
+
+                        <input type="radio" id="14op3" name="op14" value="3" required>
+                        <label for="14op3">3</label>
+
+                        <input type="radio" id="14op4" name="op14" value="4" required>
+                        <label for="14op4">4</label>
+
+                        <input type="radio" id="14op5" name="op14" value="5" required>
+                        <label for="14op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>18.Apresentar atitude de participação, iniciativa e disposição:
+                        </legend><br>
+                        <input type="radio" id="15op1" name="op15" value="1" required>
+                        <label for="15op1">1</label>
+
+                        <input type="radio" id="15op2" name="op15" value="2" required>
+                        <label for="15op2">2</label>
+
+                        <input type="radio" id="15op3" name="op15" value="3" required>
+                        <label for="15op3">3</label>
+
+                        <input type="radio" id="15op4" name="op15" value="4" required>
+                        <label for="15op4">4</label>
+
+                        <input type="radio" id="15op5" name="op15" value="5" required>
+                        <label for="15op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>19.Apresentar bom relacionamento com os funcionários do cliente:
+                        </legend><br>
+                        <input type="radio" id="16op1" name="op16" value="1" required>
+                        <label for="16op1">1</label>
+
+                        <input type="radio" id="16op2" name="op16" value="2" required>
+                        <label for="16op2">2</label>
+
+                        <input type="radio" id="16op3" name="op16" value="3" required>
+                        <label for="16op3">3</label>
+
+                        <input type="radio" id="16op4" name="op16" value="4" required>
+                        <label for="16op4">4</label>
+
+                        <input type="radio" id="16op5" name="op16" value="5" required>
+                        <label for="16op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>20.Apresentar bom relacionamento com os membros da equipe:</legend><br>
+                        <input type="radio" id="17op1" name="op17" value="1" required>
+                        <label for="17op1">1</label>
+
+                        <input type="radio" id="17op2" name="op17" value="2" required>
+                        <label for="17op2">2</label>
+
+                        <input type="radio" id="17op3" name="op17" value="3" required>
+                        <label for="17op3">3</label>
+
+                        <input type="radio" id="17op4" name="op17" value="4" required>
+                        <label for="17op4">4</label>
+
+                        <input type="radio" id="17op5" name="op17" value="5" required>
+                        <label for="17op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>21.Apontar as horas utilizadas no projeto:</legend><br>
+                        <input type="radio" id="18op1" name="op18" value="1" required>
+                        <label for="18op1">1</label>
+
+                        <input type="radio" id="18op2" name="op18" value="2" required>
+                        <label for="18op2">2</label>
+
+                        <input type="radio" id="18op3" name="op18" value="3" required>
+                        <label for="18op3">3</label>
+
+                        <input type="radio" id="18op4" name="op18" value="4" required>
+                        <label for="18op4">4</label>
+
+                        <input type="radio" id="18op5" name="op18" value="5" required>
+                        <label for="18op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>22.Avaliar os assistentes no fechamento do trabalho:</legend><br>
+                        <input type="radio" id="19op1" name="op19" value="1" required>
+                        <label for="19op1">1</label>
+
+                        <input type="radio" id="19op2" name="op19" value="2" required>
+                        <label for="19op2">2</label>
+
+                        <input type="radio" id="19op3" name="op19" value="3" required>
+                        <label for="19op3">3</label>
+
+                        <input type="radio" id="19op4" name="op19" value="4" required>
+                        <label for="19op4">4</label>
+
+                        <input type="radio" id="19op5" name="op19" value="5" required>
+                        <label for="19op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>23.Revisar os papéis de trabalhos:</legend><br>
+                        <input type="radio" id="20op1" name="op20" value="1" required>
+                        <label for="20op1">1</label>
+
+                        <input type="radio" id="20op2" name="op20" value="2" required>
+                        <label for="20op2">2</label>
+
+                        <input type="radio" id="20op3" name="op20" value="3" required>
+                        <label for="20op3">3</label>
+
+                        <input type="radio" id="20op4" name="op20" value="4" required>
+                        <label for="20op4">4</label>
+
+                        <input type="radio" id="20op5" name="op20" value="5" required>
+                        <label for="20op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="campo">
+
+                        <legend>24.Elaborar o relatório em tempo hábil e com qualidade:</legend><br>
+                        <input type="radio" id="21op1" name="op21" value="1" required>
+                        <label for="21op1">1</label>
+
+                        <input type="radio" id="21op2" name="op21" value="2" required>
+                        <label for="21op2">2</label>
+
+                        <input type="radio" id="21op3" name="op21" value="3" required>
+                        <label for="21op3">3</label>
+
+                        <input type="radio" id="21op4" name="op21" value="4" required>
+                        <label for="21op4">4</label>
+
+                        <input type="radio" id="21op5" name="op21" value="5" required>
+                        <label for="21op5">5</label>
+                    </div>
+                </fieldset>
+                <br>
+
+
+                <div class="texto_area">
+
+                    <label for="justificativas">25.Justificativas para notas 1 e 2: </label><br>
+                    <textarea rows="6" style="width: 45em" id="justificativas" name="experiencia"
+                        placeholder="Insira sua resposta" required spellcheck></textarea>
+
+                </div>
+                <br><br>
+
+                
+                <div class="texto_area">
+
+                    <label for="comentários">26.Comentários gerais do avaliador: </label><br>
+                    <textarea rows="6" style="width: 45em" id="comentários" name="experiencia"
+                        placeholder="Insira sua resposta" required spellcheck ></textarea>
+
+                    <br><br><br><br>
+                    <button class="botao" type="submit" onsubmit=""> Aperte Para Finalizar o Formulário</button>
+                    </div>
+                    
+
+
+
+
+
+
+
+
+
+
+          
+            </fieldset>
+        </form>
+</body>
+</div>
+</html>

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <!-- CSS only -->
+  <link rel="stylesheet" href="assets\styles\style_avaliacao.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+
+
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="assets/styles/style_avaliacao.css" media="screen"> -->
+
+  <!-- Titulo -->
+  <title>Formulário</title>
+</head>
+
+<!-- corpo do projeto -->
+
+<body>
+  <div class="banner">
+
+  
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.moorebrasil.com.br/escritorios/ribeirao-preto---sp" target="_blank">
+        <img src="assets/img/img_logo.jfif"  width="35"  height="35" alt="" right="700px"> Moore Prisma
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home_page_users.html" target="_blank">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ajuda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Informações formulário
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><H6 class="dropdown-item">1 = Muito abaixo do esperado</H6></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><H6 class="dropdown-item">2 = Abaixo do esperado</H6></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><H6 class="dropdown-item">3 = Dentro do esperado</H6></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><H6 class="dropdown-item">4 = Acima do esperado</H6></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><H6 class="dropdown-item">5 = Muito acima do esperado</H6></li>
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <main class="container">
+    <form>
+      <br>
+
+      <label for="exampleDataList" class="form-label">1. Avaliador</label>
+      <input class="form-control" list="datalistOptions1" id="exampleDataList" placeholder="Selecione" required>
+      <datalist id="datalistOptions1">
+        <option value="Gustavo Agostinho">
+        <option value="Kleber viana">
+        <option value="Bruno Pascoal">
+        <option value="Leonardo correia">
+        <option value="Julia frata">
+      </datalist>
+
+      <br>
+
+      <label for="exampleDataList" class="form-label">2. Avaliado</label>
+      <input class="form-control" list="datalistOptions2" id="exampleDataList" placeholder="Selecione" required>
+      <datalist id="datalistOptions2">
+        <option value="Gustavo Agostinho">
+        <option value="Kleber viana">
+        <option value="Bruno Pascoal">
+        <option value="Leonardo correia">
+      </datalist>
+      <br>
+
+      <label for="exampleDataList" class="form-label">3. Agenda</label>
+      <input class="form-control" list="datalistOptions3" id="exampleDataList" placeholder="Selecione" required>
+      <datalist id="datalistOptions3">
+        <option value="germanica 25/01 - Gustavo Agostinho">
+        <option value="Copema 02/07 - Kleber Viana">
+        <option value="Jaú server 07/10 - Bruno Pascoal">
+        <option value="Unimed Ribeirão 27/04 - Ana maria">
+      </datalist>
+
+
+      <br>
+
+      <label for="exampleDataList" class="form-label">4. Cliente</label>
+      <input class="form-control" list="datalistOptions4" id="exampleDataList" placeholder="Selecione" required>
+      <datalist id="datalistOptions4">
+        <option value="germanica">
+        <option value="Copema">
+        <option value="Jaú server">
+        <option value="Unimed Ribeirão">
+      </datalist>
+      <br>
+
+      <label for="form-check form-check-inline"> 5. Tipo de avaliação</label><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"
+          required />
+        <label class="form-check-label" for="inlineRadio1">Assistente/Trainee</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"
+          required />
+        <label class="form-check-label" for="inlineRadio2">Encarregado</label>
+      </div>
+
+      <br><br>
+
+      <label for="birthday">6. Data do término da visita:</label>
+      <input type="date" id="birthday" name="birthday" required>
+      <input type="submit"required><br><br>
+
+
+
+      <label for="exampleDataList" class="form-label">7. Tipo do compromisso :</label>
+      <input class="form-control" list="datalistOptions7" id="exampleDataList" placeholder="Selecione" required>
+      <datalist id="datalistOptions7" >
+        <option value="Auditoria das DFs / Revisão limitada (Preliminar)">
+        <option value="Auditoria das DFs (Controle interno)">
+        <option value="Auditoria das DFs / Revisão limitada (Final)">
+        <option value="Revisão contábil (Preliminar)">
+        <option value="Revisão contábil (Final)">
+        <option value="Auditoria cooperativa">
+        <option value="Inventário">
+        <option value="Auditoria interna"></option>
+
+      </datalist><br>
+
+      <legend><small>8. Apresentar conhecimento técnico de Auditoria compatível com a descrição do
+          cargo:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>9. Apresentar conhecimento técnico de Contabilidade compatível com a descrição do cargo:</small>
+      </legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="1inlineRadioOptions" id="1inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="1inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="1inlineRadioOptions" id="1inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="1inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="1inlineRadioOptions" id="1inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="1inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="1inlineRadioOptions" id="1inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="1inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="1inlineRadioOptions" id="1inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="1inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>10. Capacidade de entendimento e interpretação das explicações
+          (clientes/superiores):</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="2inlineRadioOptions" id="2inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="2inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="2inlineRadioOptions" id="2inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="2inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="2inlineRadioOptions" id="2inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="2inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="2inlineRadioOptions" id="2inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="2inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="2inlineRadioOptions" id="2inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="2inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>11.
+        Cumprir o trabalho no tempo estabelecido:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="3inlineRadioOptions" id="3inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="3inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="3inlineRadioOptions" id="3inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="3inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="3inlineRadioOptions" id="3inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="3inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="3inlineRadioOptions" id="3inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="3inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="3inlineRadioOptions" id="3inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="3inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>12.
+        Disponibilizar o trabalho com qualidade (metodologia, técnica, organização e
+          apresentação):</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="4inlineRadioOptions" id="4inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="4inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="4inlineRadioOptions" id="4inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="4inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="4inlineRadioOptions" id="4inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="4inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="4inlineRadioOptions" id="4inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="4inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="4inlineRadioOptions" id="4inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="4inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>13.
+        Buscar melhoria com base nas revisões e feedback anteriores:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="5inlineRadioOptions" id="5inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="5inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="5inlineRadioOptions" id="5inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="5inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="5inlineRadioOptions" id="5inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="5inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="5inlineRadioOptions" id="5inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="5inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="5inlineRadioOptions" id="5inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="5inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>14. Apresentar capacidade de comunicação oral e escrita:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="6inlineRadioOptions" id="6inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="6inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="6inlineRadioOptions" id="6inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="6inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="6inlineRadioOptions" id="6inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="6inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="6inlineRadioOptions" id="6inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="6inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="6inlineRadioOptions" id="6inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="6inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>15.
+        Possuir habilidade crítica e analítica dos fatos, se resguardando sobre
+          eventuais
+          problemas identificados nos exames:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="7inlineRadioOptions" id="7inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="7inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="7inlineRadioOptions" id="7inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="7inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="7inlineRadioOptions" id="7inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="7inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="7inlineRadioOptions" id="7inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="7inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="7inlineRadioOptions" id="7inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="7inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>16.
+        Eliminar todos os pontos de revisão identificados pelos superiores:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="8inlineRadioOptions" id="8inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="8inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="8inlineRadioOptions" id="8inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="8inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="8inlineRadioOptions" id="8inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="8inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="8inlineRadioOptions" id="8inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="8inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="8inlineRadioOptions" id="8inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="8inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>17.
+        Dominar as ferramentas tecnológicas utilizadas para o desenvolvimento do
+          trabalho:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="9inlineRadioOptions" id="9inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="9inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="9inlineRadioOptions" id="9inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="9inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="9inlineRadioOptions" id="9inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="9inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="9inlineRadioOptions" id="9inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="9inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="9inlineRadioOptions" id="9inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="9inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>18.
+        Apresentar atitude de participação, iniciativa e disposição:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="10inlineRadioOptions" id="10inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="10inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="10inlineRadioOptions" id="10inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="10inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="10inlineRadioOptions" id="10inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="10inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="10inlineRadioOptions" id="10inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="10inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="10inlineRadioOptions" id="10inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="10inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>19.
+        Apresentar bom relacionamento com os funcionários do cliente:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="11inlineRadioOptions" id="11inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="11inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="11inlineRadioOptions" id="11inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="11inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="11inlineRadioOptions" id="11inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="11inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="11inlineRadioOptions" id="11inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="11inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="11inlineRadioOptions" id="11inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="11inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>20.
+        Apresentar bom relacionamento com os membros da equipe:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="12inlineRadioOptions" id="12inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="12inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="12inlineRadioOptions" id="12inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="12inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="12inlineRadioOptions" id="12inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="12inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="12inlineRadioOptions" id="12inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="12inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="12inlineRadioOptions" id="12inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="12inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>21.
+        Apontar as horas utilizadas no projeto:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="13inlineRadioOptions" id="13inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="13inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="13inlineRadioOptions" id="13inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="13inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="13inlineRadioOptions" id="13inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="13inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="13inlineRadioOptions" id="13inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="13inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="13inlineRadioOptions" id="13inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="13inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>22.
+        Avaliar os assistentes no fechamento do trabalho:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="14inlineRadioOptions" id="14inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="14inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="14inlineRadioOptions" id="14inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="14inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="14inlineRadioOptions" id="14inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="14inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="14inlineRadioOptions" id="14inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="14inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="14inlineRadioOptions" id="14inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="14inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <legend><small>23.
+        Revisar os papéis de trabalhos:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="15inlineRadioOptions" id="15inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="15inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="15inlineRadioOptions" id="15inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="15inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="15inlineRadioOptions" id="15inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="15inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="15inlineRadioOptions" id="15inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="15inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="15inlineRadioOptions" id="15inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="15inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+
+      <legend><small>24. Elaborar o relatório em tempo hábil e com qualidade:</small></legend><br>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="16inlineRadioOptions" id="16inlineRadio1" value="option1" required>
+        <label class="form-check-label" for="16inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="16inlineRadioOptions" id="16inlineRadio2" value="option2" required>
+        <label class="form-check-label" for="16inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="16inlineRadioOptions" id="16inlineRadio3" value="option3" required>
+        <label class="form-check-label" for="16inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="16inlineRadioOptions" id="16inlineRadio4" value="option4" required>
+        <label class="form-check-label" for="16inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="16inlineRadioOptions" id="16inlineRadio5" value="option5" required>
+        <label class="form-check-label" for="16inlineRadio5">5</label>
+      </div>
+      <br><br>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea3">25.Justificativas para notas 1 e 2: </label>
+        <textarea class="form-control" id="exampleFormControlTextarea3" rows="7" placeholder="Insira sua resposta"
+          required spellcheck></textarea>
+      </div>
+      <br>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea3">26.Comentários gerais do avaliador: </label>
+        <textarea class="form-control" id="exampleFormControlTextarea3" rows="7" placeholder="Insira sua resposta"
+          required spellcheck></textarea>
+      </div>
+      <br>
+
+      <button type="submit" class="btn btn-primary">Aperte para finalizar o formulário</button>
+
+    </form>
+  </main>
+</div>
+</body>
+
+</html>
