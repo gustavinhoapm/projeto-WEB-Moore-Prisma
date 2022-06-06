@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Página Login</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(32, 32, 32, 0.75), rgba(32, 32, 32, 0.75)), url("assets/img/background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        input,
+        textarea {
+            background-color: #F3E5F5;
+            border-radius: 50px !important;
+            padding: 12px 15px 12px 15px !important;
+            width: 100%;
+            box-sizing: border-box;
+            border: none !important;
+            border: 1px solid #F3E5F5 !important;
+            font-size: 16px !important;
+            color: #000 !important;
+            font-weight: 400;
+        }
+
+        input:focus,
+        textarea:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            border: 1px solid #032d52 !important;
+            outline-width: 0;
+            font-weight: 400;
+        }
+
+        button:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            outline-width: 0;
+        }
+
+        .card {
+            border-radius: 0;
+            border: none;
+
+        }
+
+        .card1 {
+            width: 50%;
+            padding: 40px 30px 10px 30px;
+            background-color: rgb(238, 237, 237);
+        }
+
+        .card2 {
+            width: 50%;
+            background-image: linear-gradient(to right, #1ba4ff, #7ecbff);
+        }
+
+        #logo {
+            width: 70px;
+            height: 60px;
+        }
+
+        .heading {
+            margin-bottom: 60px !important;
+        }
+
+        ::placeholder {
+            color: rgb(121, 119, 119) !important;
+            opacity: 1;
+        }
+
+        :-ms-input-placeholder {
+            color: #000 !important;
+        }
+
+        ::-ms-input-placeholder {
+            color: #000 !important;
+        }
+
+        .form-control-label {
+            font-size: 12px;
+            margin-left: 15px;
+        }
+
+        .msg-info {
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn-color {
+            border-radius: 50px;
+            color: #fff;
+            background-image: linear-gradient(to right, #032d52, #1ba4ff);
+            padding: 15px;
+            cursor: pointer;
+            border: none !important;
+            margin-top: 40px;
+        }
+
+        .btn-color:hover {
+            color: #fff;
+            background-image: linear-gradient(to right, #1ba4ff, #032d52);
+        }
+
+        .btn-white {
+            border-radius: 50px;
+            color: #1ba4ff;
+            background-color: #fff;
+            padding: 8px 40px;
+            cursor: pointer;
+            border: 2px solid #1ba4ff !important;
+        }
+
+        .btn-white:hover {
+            color: #fff;
+            background-image: linear-gradient(to right, #032d52, #1ba4ff);
+        }
+
+        a {
+            color: #000;
+        }
+
+        a:hover {
+            color: #000;
+        }
+
+        .bottom {
+            width: 100%;
+            margin-top: 50px !important;
+        }
+
+        .sm-text {
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 992px) {
+            .card1 {
+                width: 100%;
+                padding: 40px 30px 10px 30px;
+            }
+
+            .card2 {
+                width: 100%;
+            }
+
+            .right {
+                margin-top: 100px !important;
+                margin-bottom: 100px !important;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px !important;
+            }
+
+            .card2 {
+                padding: 50px;
+            }
+
+            .right {
+                margin-top: 50px !important;
+                margin-bottom: 50px !important;
+            }
+        }
+    </style>
+</head>
+
+<body className='snippet-body'>
+    <div class="container px-4 py-5 mx-auto">
+        <div class="card card0">
+            <div class="d-flex flex-lg-row flex-column-reverse">
+                <div class="card card1">
+                    <div class="row justify-content-center my-auto">
+                        <div class="col-md-8 col-10 my-5">
+                            <div class="row justify-content-center px-3 mb-3">
+                                <img id="logo" src="assets/img/img_logo.jfif">
+                            </div>
+                            <h3 class="mb-5 text-center heading">Moore Prisma</h3>
+
+                            <h6 class="msg-info">Por favor, faça seu login: </h6>
+
+                            <div class="form-group">
+                                <label class="form-control-label text">Login:</label>
+                                <input type="text" id="email" name="email" placeholder="Usuário" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-control-label text">Senha:</label>
+                                <input type="password" id="psw" name="psw" placeholder="Senha" class="form-control">
+                            </div>
+
+                            <div class="row justify-content-center my-3 px-3">
+                                <button class="btn-block btn-color">Entrar</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card card2">
+                    <div class="my-auto mx-md-5 px-md-6 right"><br><br>
+                        <h3 class="text-white">MOORE PRISMA AUDITORES E CONSULTORES
+                            TRADIÇÃO MUNDIAL, PERSONALIDADE LOCAL</h3><br>
+                        <small class="text-white">A Moore chegou a Ribeirão Preto em 2003, por meio da Prisma Auditoria
+                            e Consultoria, que já atuava na região desde 1993.
+
+                            Sua trajetória de bons resultados, com forte penetração de mercado, levou à formação de uma
+                            das maiores estruturas regionais de prestação de serviços, tornando-se polo de experiência e
+                            credibilidade em auditoria e tributos. Além disso, a firma conta com as áreas de outsourcing
+                            e contencioso, que ganham cada vez mais força no seu market share.
+
+                            Conhecida pelo desempenho proativo do seu time de talentos, que atualmente é formado por
+                            mais de 100 profissionais, a Moore Prisma oferece condições privilegiadas de alocação e
+                            supervisão das equipes, com liderança participativa dos sócios e diretores.
+
+                            Ao longo de sua atuação, a firma emitiu e entregou mais de 10,3 mil relatórios de auditoria
+                            e tributos para empresas de diferentes portes e segmentos de negócio Entre a centena de
+                            talentos da firma, seis são diretores de auditoria; dois de tributos e contencioso; e um de
+                            outsourcing; além de seis experientes gerentes nas áreas..</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript'>"#"</script>
+    <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+        myLink.addEventListener('click', function (e) {
+            e.preventDefault();
+        });</script>
+
+</body>
+
+</html>
