@@ -1,4 +1,4 @@
-<?php
+    <?php
 // Conectando ao banco de dados:
 include 'controllers/controllerAgendamentos.php';
 include 'controllers/conexao.php';
