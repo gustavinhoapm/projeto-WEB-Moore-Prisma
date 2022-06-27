@@ -1,6 +1,8 @@
 <?php
 // Conectando ao banco de dados:
+session_start();
 include 'controllers/controllerAvaliados.php';
+include 'verificaLogin.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,6 +35,8 @@ include 'controllers/controllerAvaliados.php';
     </div>
 
             <main class="container">
+                
+                <h2>Avaliados</h2>
                 
                 <form action="?act=save" method="POST" name="form1"  >
                     

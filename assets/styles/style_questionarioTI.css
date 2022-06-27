@@ -1,0 +1,86 @@
+.form-label {
+    color: #fff;
+    font-style: arial;
+    font-size: large;
+  }
+
+  .navbar {
+    background-image: linear-gradient(to left, #1ba4ff, #032d52);
+
+  }
+
+  body {
+    background-image: linear-gradient(rgba(27, 35, 61, 0.75), rgba(27, 35, 61, 0.75)), url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+  }
+
+  .nav-item {
+    font-size: large;
+  }
+
+
+  .box {
+    margin: 0 auto;
+    color: white;
+    background-image: linear-gradient(to left, #1ba4ff, #032d52);
+    padding: 2em;
+    margin-top: 4%;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 12px 12px 22px 12px #213472;
+    border-radius: 1em;
+    width: 95%;
+  
+
+  }
+
+  body {
+    font-family: Arial;
+    background-color: rgba(156, 185, 240, 0.616);
+   
+  }
+
+.form-group{
+ 
+right: 8%;
+text-align:end;
+float: right;
+color: #fff;
+
+  
+
+  
+}
+
+select.control{
+
+  width: 150px;
+
+}
+
+.list-group{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #fff;
+}
+
+legend{
+  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  
+}
+
+.row{
+  color: #fff;
+}
+
+
+
+

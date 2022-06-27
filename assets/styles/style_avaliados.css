@@ -20,19 +20,25 @@ body{
  background-color: white;
  border-radius: 40px;
  box-shadow: 12px 12px 22px #213472;
-
 }
 
-.col-lg-5{
-    height: 100%;
-}
+
 
 .img-fluid{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     height: 100%;
+ 
     
 }
+.col-lg-5{
+  height: 100%;
+}
+
+.form-label{
+    font-weight: bold;  
+}
+
 
 
 
